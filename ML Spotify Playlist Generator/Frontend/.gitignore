@@ -1,0 +1,91 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# ==============================
+# 🚀 React + Vite + Tailwind Project
+# ==============================
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Vite cache
+.vite/
+
+# Tailwind CSS build cache
+.tailwind-cache/
+tailwind.config.local.js
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional lock files (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Testing
+coverage/
+*.lcov
+
+# Local preview servers or temp files
+*.local
+*.tmp
+*.temp
+
+# Lint/format caches
+.eslintcache
+.stylelintcache
+.prettier-cache
+
+# TypeScript (if you later add TS)
+*.tsbuildinfo
+
+# Misc
+*.swp
+*.bak
+*.orig
+*.rej

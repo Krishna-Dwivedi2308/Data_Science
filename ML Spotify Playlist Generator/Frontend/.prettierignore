@@ -1,0 +1,44 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist
+build
+.out
+.next
+coverage
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+*.log
+
+# Compiled code
+*.min.js
+*.min.css
+
+# Git
+.git
+.gitignore
+
+# Misc
+.DS_Store
+
+# Project specific
+# Ignore generated files or API responses if any
+public/*.js
+public/*.map
+
+# Don’t format config files that might break
+*.config.js
+*.config.cjs
+*.config.mjs
+vite.config.*
+eslint.config.*
+tailwind.config.*
+postcss.config.*

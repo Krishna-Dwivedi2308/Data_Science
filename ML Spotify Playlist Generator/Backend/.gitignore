@@ -1,0 +1,98 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual Environments ----
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# ---- Environment Variables ----
+.env
+.env.*.local
+*.env
+
+# ---- IDEs & Editors ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS & System Files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs ----
+*.log
+*.out
+*.err
+logs/
+log/
+
+# ---- Testing ----
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+.coverage.*
+
+# ---- Build & Packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+pip-wheel-metadata/
+wheelhouse/
+
+# ---- Caches ----
+.cache/
+__pypackages__/
+.pyre/
+.pytype/
+.mypy_cache/
+.dmypy.json
+
+# ---- Data & Model Files ----
+*.db
+*.sqlite3
+*.pkl
+*.h5
+*.joblib
+*.csv
+*.tsv
+*.parquet
+
+# ---- Jupyter ----
+.ipynb_checkpoints
+*.ipynb
+
+# ---- Deployment & Docker ----
+*.pid
+*.pid.lock
+celerybeat-schedule
+instance/
+*.pem
+*.crt
+*.key
+secrets.json
+
+# ---- Backup Files ----
+*.bak
+*.swp
+*~
+
+# ---- FastAPI / Uvicorn ----
+*.pid
+uvicorn.log
+
+# ---- Custom Ignore ----
+# Add your custom data folders or sensitive files here
+data/
+uploads/
+tmp/
